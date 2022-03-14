@@ -1,6 +1,7 @@
 const express = require('express')
 const { ObjectId } = require('mongodb')
 const router = express.Router()
+//importando as funções a serem feitas no banco
 const db = require('../services/db')
 
 //Conexão com o banco de dados
